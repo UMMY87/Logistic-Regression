@@ -9,7 +9,7 @@ The code begins by computing the exponential of an array of values ranging from 
 ## Visualization of Sigmoid Function
 The sigmoid function is then applied to an array of evenly spaced values between -10 and 10, and the resulting sigmoid values are plotted against the input values 
 𝑧
-z. The plot illustrates the characteristic S-shaped curve of the sigmoid function, showcasing how it transforms input values into probabilities.
+. The plot illustrates the characteristic S-shaped curve of the sigmoid function, showcasing how it transforms input values into probabilities.
 
 Additionally, the plt_one_addpt_onclick function is imported, enabling users to interactively add new data points to the plot by clicking on the figure. This feature facilitates the exploration of how the sigmoid function responds to changes in input data, providing a dynamic visualization of its behavior.
 
