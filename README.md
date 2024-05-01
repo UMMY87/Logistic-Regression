@@ -5,34 +5,6 @@ This code snippet demonstrates the implementation and visualization of the sigmo
 
 ## Exponential Calculation and Sigmoid Function Definition
 The code begins by computing the exponential of an array of values ranging from -10 to 10 using the NumPy exp function, showcasing how the sigmoid function can handle arrays as inputs. It also calculates the sigmoid of a single scalar value (1), demonstrating its versatility.
-The sigmoid function is defined by the formula:
-
-𝑔
-(
-𝑧
-)
-=
-1
-1
-+
-𝑒
-−
-𝑧
-g(z)= 
-1+e 
-−z
- 
-1
-​
- 
-
-Where 
-𝑒
-e is the base of the natural logarithm.
-
-This formula transforms any real-valued input 
-𝑧
-z into a probability value between 0 and 1, making it suitable for binary classification tasks.
 
 ## Visualization of Sigmoid Function
 The sigmoid function is then applied to an array of evenly spaced values between -10 and 10, and the resulting sigmoid values are plotted against the input values 
